@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "photobook"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-zr3crm9u1n80"
+s3_prefix = "photobook"
+region = "ap-northeast-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+image_repositories = []
